@@ -1,0 +1,10 @@
+f:\documents\projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+f:\documents\projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+f:\documents\projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+f:\documents\projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+f:\documents\projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+J:\documents\projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+J:\documents\projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+J:\documents\projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+J:\documents\projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+J:\documents\projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
