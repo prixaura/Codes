@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="Admin_AdminMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="AdminStyle.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color:Maroon; margin:0px 0px 0px 0px">
+    <form id="form1" runat="server">
+    
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+      
+    <table align="center" width="900px" style="border:double 1px #ff9900; background-color:White;">
+    <tr>
+        <td>  
+             <table style="margin-top:-2px; width:100%">
+                    <tr>
+                        <td colspan="2" style="width:100%; background-image:url('bgtop.jpg');height:35px;font-family:Comic Sans MS; font-size:30px;" 
+                            align="center">
+                           
+                            <span style="color:Maroon;">Sales, Purchase</span>  
+                            <span style="color:Blue;">and </span>  
+                            <span style="color:White">Inventroy Tracking </span>
+                            <span style="color:Purple">System</span>  
+                            
+                            </td> 
+                    </tr>
+                    
+                    <tr>                    
+                        <td valign="top">                            
+                             <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" 
+                                BackColor="#FFFBD6" DynamicHorizontalOffset="2" Font-Names="Verdana" 
+                                Font-Size="12px" ForeColor="#990000" Height="17px" StaticSubMenuIndent="10px" 
+                                Width="830px">
+                                <StaticSelectedStyle BackColor="#FFCC66" />
+                                <StaticMenuItemStyle HorizontalPadding="10px" VerticalPadding="2px" />
+                                <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                                <DynamicMenuStyle BackColor="#FFFBD6" />
+                                <DynamicSelectedStyle BackColor="#FFCC66" />
+                                <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                                <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                                <Items>
+                                    <asp:MenuItem NavigateUrl="~/Admin/SupplierMaster.aspx" Text="Supplier Details" 
+                                        Value="Supplier Details"></asp:MenuItem>
+                                    <asp:MenuItem Text="Model Details" Value="Model Details" 
+                                        NavigateUrl="~/Admin/ModelDetails.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Mobile Description" Value="Mobile Description" 
+                                        NavigateUrl="~/Admin/MobileDesc_Insert.aspx"></asp:MenuItem>
+                                    <asp:MenuItem NavigateUrl="~/Admin/ItemMaster.aspx" Text="Item Master" 
+                                        Value="Item Master"></asp:MenuItem>
+                                    <asp:MenuItem Text="Purchase Details" Value="Purchase Details" 
+                                        NavigateUrl="~/Admin/PurchaseDetails.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Item Details" Value="Item Details" 
+                                        NavigateUrl="~/Admin/ItemDetails.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Sale Details" Value="Sale Details" 
+                                        NavigateUrl="~/Admin/SaleDetails.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Bill" Value="Bill Details" NavigateUrl="~/Admin/Bill.aspx"></asp:MenuItem>
+                                    <asp:MenuItem Text="Report" Value="Report">
+                                        <asp:MenuItem 
+                                            Text="Daily Sale Report" Value="Daily Highlight Report" 
+                                            NavigateUrl="~/Admin/Report/DailyReport.aspx"></asp:MenuItem>
+                                        <asp:MenuItem NavigateUrl="~/Admin/Report/DailyPurchaseReport.aspx" 
+                                            Text="Daily Purchase Report" Value="Weekly Highlight Report">
+                                        </asp:MenuItem>
+                                       
+                                    </asp:MenuItem>
+                                </Items>
+                            </asp:Menu>  
+                        </td>                                  
+                        <td valign="top">
+                            <asp:LinkButton ID="lnkSignout" runat="server" CausesValidation="false" onclick="lnkSignout_Click">Signout</asp:LinkButton>
+                        </td>
+                    </tr>
+            </table>
+       
+            <table width="100%">
+                <tr> 
+                    <td style="height:470px;" valign="top"  align="left" width="770px;">
+                       
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                        
+                        </asp:ContentPlaceHolder>
+                    </td>            
+                </tr>
+                <tr>
+                    <td colspan="2" style="background-color:#ff9900;color:#d7d3b8; font-size:10px;" align="left">
+                        <table width="100%" style="margin:0px 0px 0px 0px;">
+                            <tr>
+                                <td align="left" width="500px">
+                                    <span style="font-size:12px;color:Black;"> @Copyright 2011 by Rahul Rai. All rights reserved</span>
+                                </td>
+                                
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+        </td>
+    </tr> 
+ </table> 
+    </form>
+</body>
+</html>

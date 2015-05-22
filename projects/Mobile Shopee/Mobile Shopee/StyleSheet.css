@@ -1,0 +1,46 @@
+﻿body 
+{
+
+}
+.txtuser
+{
+	background-image:url(images/txtuser.png);
+	border:none opx none;
+}
+
+.link
+{
+	color:White;
+}
+.link:hover
+{
+	color:#ff9900;
+}
+
+.footerlink
+{
+	color:Blue;
+	font-size:12px;
+}
+.footerlink:hover
+{
+	color:Black;
+}
+
+
+/*Modal Popup*/
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup {
+	background-color:#ffffdd;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:250px;
+}
+

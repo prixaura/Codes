@@ -1,0 +1,16 @@
+
+
+<%@ Register
+    Assembly="AjaxControlToolkit"
+    Namespace="AjaxControlToolkit"
+    TagPrefix="cc1" %>
+<cc1:CollapsiblePanelExtender runat="server"
+    ExpandDirection="Vertical"
+    ExpandedImage="collapse.jpg"
+    ExpandedText="Collapse"
+    CollapsedImage="expand.jpg"
+    CollapsedText="Expand"
+    SuppressPostBack="true" />
+
+<cc1:CollapsiblePanelExtender runat="server"
+    SkinID="CollapsiblePanelDemo" />    

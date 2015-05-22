@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Mobile Shopee", "DOTNET PROJECTS\Mobile Shopee\", "{A80C56B1-0017-4B74-B7F3-E100735CF467}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Mobile Shopee"
+		Debug.AspNetCompiler.PhysicalPath = "G:\DOTNET PROJECTS\Mobile Shopee\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Mobile Shopee\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Mobile Shopee"
+		Release.AspNetCompiler.PhysicalPath = "G:\DOTNET PROJECTS\Mobile Shopee\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Mobile Shopee\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51275"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A80C56B1-0017-4B74-B7F3-E100735CF467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A80C56B1-0017-4B74-B7F3-E100735CF467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
